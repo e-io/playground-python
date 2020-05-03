@@ -6,6 +6,8 @@ In this task, it need to read a partial selection of the dataset. The dataset co
 
 The idea of this problem is taken from the page https://stepik.org/lesson/24473/step/2?discussion=1667812&unit=6777
 
+______________
+
 В этой задаче надо прочитать частичную выборку датасета. Датасет содержит преступления, совершенные в Чикаго с 2001 по 2016 год.
 
 **Задача**: вывести 10 самых популярных преступлений в 2015 году с указанием общего их числа
