@@ -1,6 +1,8 @@
 import json
 
-classes = json.load(open("classes5.json"))
+# For input from test files "classes?.json"
+classes = json.load(open("classes2.json"))
+# For input from keyboard
 # classes = json.loads(input())
 
 inheritances = dict()
@@ -18,6 +20,10 @@ for class_ in classes:
 
 
 def all_children(parent):
+    #for error case
+    if parent not in inheritances:
+        return set()
+
     children = inheritances[parent]
     all_children_ = set()
     for child in children:
@@ -27,7 +33,7 @@ def all_children(parent):
             all_children_ .add(result)
     return all_children_
 
-
+# inheritances_full = dict()
 for parent in inheritances:
     all_children_ = set()
     all_children_ = all_children(parent)
