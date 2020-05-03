@@ -1,7 +1,7 @@
 import json
 
-# classes = json.load(open("classes2.json"))
-classes = json.loads(input())
+classes = json.load(open("classes5.json"))
+# classes = json.loads(input())
 
 inheritances = dict()
 for class_ in classes:
