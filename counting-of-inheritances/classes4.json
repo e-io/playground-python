@@ -1,0 +1,91 @@
+[
+  {
+    "name": "G",
+    "parents": [
+      "ZZZ"
+    ]
+  },
+  {
+    "name": "TH",
+    "parents": [
+      "ZZZ"
+    ]
+  },
+  {
+    "name": "G",
+    "parents": [
+      "ZY"
+    ]
+  },
+  {
+    "name": "G",
+    "parents": [
+      "F"
+    ]
+  },
+  {
+    "name": "A",
+    "parents": []
+  },
+  {
+    "name": "B",
+    "parents": [
+      "A"
+    ]
+  },
+  {
+    "name": "C",
+    "parents": [
+      "A"
+    ]
+  },
+  {
+    "name": "D",
+    "parents": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "name": "E",
+    "parents": [
+      "D"
+    ]
+  },
+  {
+    "name": "F",
+    "parents": [
+      "D"
+    ]
+  },
+  {
+    "name": "X",
+    "parents": []
+  },
+  {
+    "name": "Y",
+    "parents": [
+      "X",
+      "A"
+    ]
+  },
+  {
+    "name": "Z",
+    "parents": [
+      "X"
+    ]
+  },
+  {
+    "name": "V",
+    "parents": [
+      "Z",
+      "Y"
+    ]
+  },
+  {
+    "name": "W",
+    "parents": [
+      "V"
+    ]
+  }
+]
