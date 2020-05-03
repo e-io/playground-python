@@ -1,27 +1,30 @@
+# python 3-7-4
+
 import csv
 
 crimes = dict()
 with open("crimes.csv") as file:
     detective = csv.reader(file)
-    counter = 0
 
     for row in detective:
-        if "2015" in row[2] or counter == 0:
-            # print(counter, ' ', row[2], ' ', row[5])
+        date = row[2]
+        if "2015" in date:
             crime = row[5]
             if crime not in crimes:
                 crimes[crime] = 1
             else:
                 crimes[crime] += 1
-            # if counter == 50: break
-            counter += 1
 
-print(crimes)
-max = 0
-max_crime = "no crime"
-for crime in crimes:
-    if crimes[crime] > max:
-        max = crimes[crime]
-        max_crime = crime
 
-print(max_crime, max)
+counter = 1
+while counter <= 10:
+    max_ = 0
+    max_crime = "no crime"
+    for crime in crimes:
+        if crimes[crime] > max_:
+            max_ = crimes[crime]
+            max_crime = crime
+
+    print(counter, max_crime, max_)
+    crimes.pop(max_crime)
+    counter += 1
