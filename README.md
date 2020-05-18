@@ -7,6 +7,7 @@ The ideas of tasks can be taken from any sites or from my own head. If possible,
 ```
 ├── crimes/ Used "csv" library. Problem - to display crimes from dataset.
 ├── counting-of-inheritances/ library "json" was used. Based on the json description of class inheritance, output classes and all inheritors.
+├── The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
 ```
 ________________
 
@@ -16,5 +17,6 @@ ________________
 Сами идей задач могут браться с каких-либо сайтов или из головы. По возможности, ссылки даны в README.md-описаниях к каждой задаче в каждой папке.
 ```
 ├── crimes/ Использована библиотека csv. Задача - вывести преступления из базы данных csv.
-├── counting-of-inheritances/ Использована библиотека json. На основе json-описания наследования классов вывести классы и всех наследников
+├── counting-of-inheritances/ Использована библиотека json. На основе json-описания наследования классов вывести классы и всех наследников.
+├── xml-counting-cubes/ Библиотека xml. В xml описывается пирамида из кубов трех цветов и надо вывести сумму ценности кубов каждого цвета.
 ```
