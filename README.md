@@ -7,7 +7,7 @@ The ideas of tasks can be taken from any sites or from my own head. If possible,
 ```
 ├── crimes/ Used "csv" library. Problem - to display crimes from dataset.
 ├── counting-of-inheritances/ library "json" was used. Based on the json description of class inheritance, output classes and all inheritors.
-├── The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
+├── xml-counting-cubes/ The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
 ```
 ________________
 
