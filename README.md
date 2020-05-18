@@ -7,9 +7,12 @@ The ideas of tasks can be taken from any sites or from my own head. If possible,
 ```
 ├── crimes/ Used "csv" library. Problem - to display crimes from dataset.
 ├── counting-of-inheritances/ library "json" was used. Based on the json description of class inheritance, output classes and all inheritors.
-├── xml-counting-cubes/ The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
+├── xml-counting-cubes/ Used 'lxml' library. The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
+├── find-domains/ The 'lxml' library is used. Need to find the domains of all links in a random html file and output them alphabetically
 ```
 ________________
+
+## Тренировочная площадка для python
 
 Этот репозиторий создан для тренировочных задач на Python. Зачастую цель в каждой обучающей задаче - потрогать ручками библиотеку, с которой никогда ранее не сталкивался, или применить алгоритм, который раньше не реализовывал.
 
@@ -18,5 +21,6 @@ ________________
 ```
 ├── crimes/ Использована библиотека csv. Задача - вывести преступления из базы данных csv.
 ├── counting-of-inheritances/ Использована библиотека json. На основе json-описания наследования классов вывести классы и всех наследников.
-├── xml-counting-cubes/ Библиотека xml. В xml описывается пирамида из кубов трех цветов и надо вывести сумму ценности кубов каждого цвета.
+├── xml-counting-cubes/ Библиотека lxml. В xml описывается пирамида из кубов трех цветов и надо вывести сумму ценности кубов каждого цвета.
+├── find-domains/ Использована библиотека lxml. Надо найти домены всех ссылок в произвольном html-файле и вывести их по алфавиту
 ```
