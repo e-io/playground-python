@@ -5,7 +5,6 @@ Each cube at the top of the pyramid has a value of 1, the second-level cube has 
 
 It is necessary to count the value of all cubes of each color.
 
-the idea of the problem is taken from https://stepik.org/lesson/24474/step/4
 
 input example is in *input.txt*
 
@@ -16,6 +15,11 @@ green: 3
 blue: 1
 ```
 
+the idea of the problem is taken from https://stepik.org/lesson/24474/step/4
+
+_______________________
+
+
 ## Подсчет кубиков
 
 Дано описание пирамиды из кубиков в формате xml. Каждый кубик может быть красного, зеленого или синего цвета. 
@@ -24,7 +28,6 @@ blue: 1
 
 Надо сосчитать ценность всех кубов каждого цвета.
 
-идея задачи взята с https://stepik.org/lesson/24474/step/4
 
 пример ввода - в *input.txt*
 
@@ -34,3 +37,6 @@ red: 4
 green: 3
 blue: 1
 ```
+
+идея задачи взята с https://stepik.org/lesson/24474/step/4
+
