@@ -1,5 +1,6 @@
 ### Six simple problems from Innopolis Contest on April 17th 2021.
-All problems are written in *pdf*-document.
+All problems are written in *pdf*-document *"2021-04-17_Contest_Innopolis.pdf"*.
+
 Solutions are written in Python. There are tests in every file (function _def test()_).
 
 *A , B, C, D* are **accepted** (correct)
