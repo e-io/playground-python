@@ -5,6 +5,7 @@ This repository was created for Python learning objectives. Usually, the goal in
 The repository structure is simple: one folder - one  learning objective.
 The ideas of tasks can be taken from any sites or from my own head. If possible, links are provided in the README. md descriptions for each  learning objectives in each folder.
 ```
+├── 2021-04-17_Contest_Innopolis/ Six simple problems from contest. More information in subfolder. Tasks are in pdf-document.
 ├── crimes/ Used "csv" library. Problem - to display crimes from dataset.
 ├── counting-of-inheritances/ library "json" was used. Based on the json description of class inheritance, output classes and all inheritors.
 ├── xml-counting-cubes/ Used 'lxml' library. The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
