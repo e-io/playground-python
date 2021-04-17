@@ -9,6 +9,7 @@ The ideas of tasks can be taken from any sites or from my own head. If possible,
 ├── counting-of-inheritances/ library "json" was used. Based on the json description of class inheritance, output classes and all inheritors.
 ├── xml-counting-cubes/ Used 'lxml' library. The xml describes a pyramid of cubes of three colors and you need to output the sum of the value of the cubes of each color.
 ├── find-domains/ The 'lxml' library is used. Need to find the domains of all links in a random html file and output them alphabetically
+├── multifilter/ An iterator class is created with the functions __iter__, _ _ next__. Create a multi-filter that filters a sequence by the set of values in the list of functions on the elements in this sequence
 ```
 ________________
 
@@ -23,4 +24,5 @@ ________________
 ├── counting-of-inheritances/ Использована библиотека json. На основе json-описания наследования классов вывести классы и всех наследников.
 ├── xml-counting-cubes/ Библиотека lxml. В xml описывается пирамида из кубов трех цветов и надо вывести сумму ценности кубов каждого цвета.
 ├── find-domains/ Использована библиотека lxml. Надо найти домены всех ссылок в произвольном html-файле и вывести их по алфавиту
+├── multifilter/ Создается класс итератора с функциями __iter__, __next__. Создать мультифильтр, фильтрующий последовательность по совокупности значений списка функций на элементах этой последовательности
 ```
