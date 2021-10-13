@@ -3,14 +3,13 @@ def text_to_vk_inters(lines):
     result = []
     max = 42
     for line in lines:
-        to_underscore = [' ', '-', ':']
-        for s in to_underscore:
+        if len(line) >= 2 and line[0:2] == '- ':
+            line = line[2:]
+        elif len(line) != 0:
+            line = line.upper() + ':'
+        for s in {' ', '-'}:
             line = line.replace(s, '_')
-        length = len(line)
-        if length > max:
-            line = line[0:max]
-        elif length < max:
-            line = line + '_' * (max-length)
+        line = f'{{:_^{max}}}'.format(line)
         result.append(line)
     return('\n'.join(result))
 
@@ -25,7 +24,7 @@ IT:
 - Podlodka Podcast
 - АйТиБорода
 - Moscow Python
-                              
+                        
 Наука:
 - Голый землекоп
 - The Big Beard Theory
@@ -33,7 +32,7 @@ IT:
 Чай:
 - Пуэр FM
 - TeaPOD
-               
+
 Другие темы:
 - Laowaicast (о Китае)
 - ObRetu.ru (саморазвитие)           
@@ -54,25 +53,25 @@ IT:
     Ютуб = '''
 Любимые каналы на Ютубе
 
-Путешествия 
-- Орел и Решка 
-- DW на русском 
+Путешествия
+- Орел и Решка
+- DW на русском
 
-Общество 
+Общество
 - Кацламовщина
-- DW на русском 
- 
-Чай 
+- DW на русском
+
+Чай
 - Чай без церемоний
 - Сергей Шевелев
 
 Юмор
 - Barakuda
 - Мед
- 
-Наука 
+
+Наука
 - Kurzgesagt
-- Veritasium 
+- Veritasium
 '''
 
     interests = {
