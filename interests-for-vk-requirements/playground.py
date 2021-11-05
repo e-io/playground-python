@@ -79,7 +79,7 @@ IT:
         'music': Музыка[1:-1],
         'youtube': Ютуб[1:-1],
     }
-    result = text_to_vk_inters(interests['youtube'])
+    result = text_to_vk_inters(interests['podcasts'])
     print(result)
 
 
